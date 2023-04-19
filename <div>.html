@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        .main #idd
+        {
+            text-align: center;
+            background-color: blueviolet;
+            margin: 100px; 
+            /* margin give outer space in four side */
+            padding: 20px;
+            /* padding gives inner spaces */
+            border-style: solid;
+            border-color: red;
+        }
+        
+        .main .clss
+        {
+            text-align: center;
+            background-color: tomato;
+            padding: 20px;
+            margin: 100px;
+            border-style: dashed;
+            border-color: cyan;
+        }
+        .main .clss button 
+        {
+            margin: 20px;
+        }
+        .main .clss button:hover
+        {
+            background-color: greenyellow;
+        }
+    </style>
+    <body>
+        <div class = "main">
+            <div id = "idd">
+                <input type = "text" placeholder="write something">
+                <button>
+                    send
+                </button>
+            </div>
+            <div class = "clss">
+                <input type = "datetime-local">
+            </br>
+                <button>
+                    send
+                </button>    
+            </div>
+        </div>
+    </body>
+</html>
