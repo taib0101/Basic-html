@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class = "main">
+            <form action = "" method = "post">
+                <!-- 
+                    form is container tag
+                    form is actually for a form
+                    that means there have "label,
+                    input" tag
+                    form has basic attributes like
+                    1.action
+                    2.method
+                    3.onsubmit
+                -->
+                <!-- 
+                    input tag is empty tag
+                    input tag contain attribute
+                    like 
+                    1.type contains value like
+                    "checkbox,radio,text,password,email,date
+                    ,submit
+                    "
+                    if you use "submit value" for
+                    type tag ,you need add "value" attribute
+                    2.id
+                    3.name -> key name
+                -->
+                <!-- 
+                    label tag is container tag 
+                    and attribute is
+                    1.for
+                -->
+                <!-- row 1 -->
+                <div class = "1" style = "background-color: red; 
+                    padding-bottom: 10px;">
+                        <label for = "name">
+                            Name
+                        </label>
+                        <br>
+                        <input type = "text" id = "name" name = "name"
+                        placeholder = "Enter your name">
+                </div>
+
+                <!-- row 2 -->
+                <div style = "background-color: greenyellow; 
+                padding-bottom: 10px;">
+                        <label for = "email">
+                            E-mail 
+                        </label>
+                        <label style="margin-left: 200px;" for = "password"> 
+                            Password 
+                        </label>
+                        <br>
+                        <input type = "email" id = "email" name = "email"
+                        placeholder = "your mail bro">
+                        <input type = "password" id = "password" name = 
+                        "password" style = "margin-left: 57px;"
+                        placeholder = "password">
+                </div>
+
+                <!-- row 3 -->
+                <div style = "background-color: blueviolet; padding-bottom: 
+                10px;">
+                        <label for = "age">
+                            Age
+                        </label>
+                        <label for = "gender" style = "margin-left: 217px;">
+                            Gender
+                        </label>
+                        <br>
+                        <input type = "number" id = "age" name = "age"
+                        min = "18" max = "60">
+                        <input type = "radio" id = "gender" name = "gender"
+                        style = "margin-left: 189px;" value = "male"> Male
+                        <br>
+                        <label for = "mobile_number">
+                            Mobile Number
+                        </label>
+                        <input type = "radio" id = "gender" name = "gender"
+                        value = "female" style = "margin-left: 142px;"> Female
+                        <br>
+                        <input type = "text" id = "mobile_number" name = "
+                        mobile_number">
+                        <input type = "radio" id = "gender" name = "gender"
+                        value = "other" style = "margin-left: 60px;"> Other
+                </div>
+
+                <!-- row 4 -->
+                <div style = "background-color: teal; padding-bottom: 
+                10px;">
+                        <label for = "address">
+                            Address
+                        </label>
+                        <br>
+                        <textarea id = "address" name = "address" 
+                        rows = "3" cols="30"> 
+                        </textarea>
+                </div>
+
+                <!-- row 5 -->
+                <div style = "background-color:springgreen; padding-bottom: 
+                10px;">
+                        <label for = "skils">
+                            Skills
+                        </label>
+                        <br>
+                        <input type = "checkbox" id = "skils" name = "c++"
+                        value = "c++">C++
+                        <input type = "checkbox" id = "skils" name = "shell"
+                        value = "shell" style = "margin-left: 5px;"> Shell
+                        
+                        <input type = "checkbox" id = "skils" name = "js"
+                        value = "js" style = "margin-left: 5px;"> Java Script
+                </div>
+
+                <!-- row 6 -->
+                <div style = "padding-bottom: 10px; background-color: violet;">
+                        <label for = "file">
+                            Choose Your File
+                        </label>
+                        <br>
+                        <input type = "file" id = "file" name = "file">
+                </div>
+                <div style = "padding-bottom: 10px; 
+                background-color: saddlebrown;">
+                    <label for = "select">
+                        select your country
+                    </label>
+                    <br>
+                    <select id = "select" name = "select">
+                        <option value = "bangladesh">
+                            Bangladesh
+                        </option>
+                        <option value = "pakistan">
+                            Pakistan
+                        </option>
+                        <option value = "chaina">
+                            China
+                        </option>
+                    </select>
+                </div>
+                <input type = "submit" name = "submit" value = "click">
+                <input type = "reset" name = "reset" value = "Reset">
+                
+            </form>
+        </div>
+        <script src = "./test.js">
+
+        </script>
+    </body>
+</html>
