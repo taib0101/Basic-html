@@ -1,0 +1,149 @@
+.a1
+{
+    background-color: goldenrod;
+    margin-block: 10px;
+}
+.a1 label
+{
+    padding-right: 30px;
+}
+.a1 span
+{
+    font-size: 14px;
+}
+
+.a2 label
+{
+    padding-right: 32px;
+}
+
+.a2
+{
+    background-color: green;
+    margin-block: 10px;
+}
+
+.a2 span
+{
+    font-size: 14px;
+}
+.a3
+{
+    background-color: blueviolet;
+    margin-block: 10px;
+}
+
+
+.a3 label
+{
+    padding-right: 18px;
+}
+.a4
+{
+    background-color: teal;
+    margin-block: 10px;
+
+}
+
+.a4 label
+{
+    padding-right:64px;
+}
+.a5
+{
+    background-color: steelblue;
+    margin-block: 10px;
+}
+
+.a6
+{
+    background-color:violet;
+    margin-block: 10px;
+}
+
+.a6 label
+{
+    padding-right:57px;
+}
+.a7
+{
+    background-color:tomato;
+    margin-block: 10px;
+}
+
+.a7 label
+{
+    padding-right:50px;
+}
+
+.a8
+{
+    background-color:royalblue;
+    margin-block: 10px;
+}
+
+.a8 label
+{
+    padding-right:74px;
+}
+
+.a9
+{
+    background-color:seagreen;
+    margin-block: 10px;
+}
+
+.a9 label
+{
+    padding-right: 50px;
+}
+.a10
+{
+    background-color:purple;
+    margin-block: 10px;
+}
+.a10 label
+{
+    padding-right: 70px;
+}
+.a11
+{
+    background-color:aqua;
+    margin-block: 10px;
+}
+
+.a11 label
+{
+    padding-right: 50px;
+}
+.a12
+{
+    background-color:tomato;
+    margin-block: 10px;
+}
+
+.a12 label
+{
+    padding-right: 51px;
+}
+.a12 #ot
+{
+    padding-left: 107px;
+}
+form
+{
+    background-color: blueviolet;
+}
+.a13
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.a13 #submit:hover
+{
+    background-color: brown;
+}
+.a13 #reset:hover
+{
+    background-color:yellowgreen;
+}

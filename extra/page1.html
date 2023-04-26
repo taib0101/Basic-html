@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head>
+    <link href = "page1.css" 
+      rel="stylesheet">
+  </head>
+  <body>
+    <form action = "" method = "post">
+      <div class = "a1">
+        <label for = "f_name">
+          First Name
+        </label>
+          <input type = "text" id = "f_name"
+           name = "f_name" placeholder = "Enter your first name">
+          <span>
+            (max 30 characters a-z or A-Z)
+          </span>
+      </div>
+      <div class = "a2">
+        <label for = "l_name">
+          Last Name
+        </label>
+        <input type = "text" id = "l_name" name = "l_name"
+         placeholder="Enter your last name">
+         <span>(max 30 characters a-z or A-Z)</span>
+      </div>
+      <div class = "a3">
+        <label for = "dob">Date of Birth</label>
+        <input type = "date" id = "dob" name="dob">
+      </div>
+      <div class = "a4">
+        <label for = "email">
+          Email
+        </label>
+        <input type = "email" id = "email" name = "name">
+      </div>
+      <div class = "a5">
+        <label for = "mob">
+          Mobile Number
+        </label>
+        <input type = "text" id = "mob" name = "mob">
+      </div>
+      <div class = "a6">
+          <span> 
+            <label for = "gender"> Gender </label>
+              Male 
+            <input type="radio" id = "gender" name="gender">
+              Female 
+            <input type="radio" id = "gender" name = "gender">
+          </span>
+      </div>
+      <div class="a7">
+        <table>
+          <tr>
+            <td>
+              <label for = "address">
+                Address
+              </label>
+              <br><br><br><br>
+            </td>
+            <td>
+              <textarea id = "address" name = "address"
+               rows = "5" cols="30">
+              </textarea>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class = "a8">
+        <table>
+          <tr>
+            <td>
+              <label for = "city">
+                City
+              </label>
+              <input type = "text" id = "city" name = "city">
+              <span>(max 30 characters a-z or A-Z)</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class = "a9" >
+        <table>
+          <tr>
+            <td>
+              <label for = "pincode">
+                Pincode
+              </label>
+              <input type = "text" id = "name" name = "name">
+              <span>(max 6 digit)</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class = "a10" >
+        <table>
+          <tr>
+            <td>
+              <label for = "state">
+                State
+              </label>
+              <input type = "text" id = "state" name = "state">
+              <span>(max 30 characters a-z or A-Z)</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class = "a11" >
+        <table>
+          <tr>
+            <td>
+              <label for = "country">
+                Country
+              </label>
+              <input type = "text" id = "country" name = "country">
+              <span>(max 30 characters a-z or A-Z)</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class = "a12" >
+        <table>
+          <tr>
+            <td>
+              <label for = "hobbies">
+                Hobbies
+              </label>
+              <span>
+                Programming
+                <input type="checkbox" id = "hobbies" name = "progrm">
+                Drawing 
+                <input type="checkbox" id = "hobbies" name = "drawing">
+                Dancing
+                <input type="checkbox" id = "hobbies" name = "dancing">
+                <br>
+                <div id = "ot">
+                  <span>Others</span>
+                  <input type="checkbox" id = "hobbies" name = "other">
+              </div>
+              </span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class = "a13">
+        <input type="submit" id = "submit" value="Submit">
+        <input type="reset" id = "reset" value="Reset">
+      </div>
+    </form>
+  </body>
+</html>
