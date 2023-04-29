@@ -147,3 +147,14 @@ form
 {
     background-color:yellowgreen;
 }
+.pos
+{
+    text-align: left;
+    background-color: turquoise;
+    width: 200px;
+}
+.pos iframe
+{
+    width: 150px;
+    height: 150px;
+}

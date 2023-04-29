@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <center>
+            <h4>
+                Without area
+            </h4>
+        </center>
+        <a href = "http://127.0.0.1:3000/<frame>.html" target="_parent">
+            <abbr title = "taib's github">
+                <img src = "/image/images.jpg"
+                 width = "100 px" height="100 px">         
+            </abbr>
+        </a>
+        <hr>
+        <center>
+            <h4>
+                With area (poly)
+            </h4>
+        </center>
+        <!-- <a href = "https://www.youtube.com/watch?v=d86ws7mQYIg"> -->
+            <img src = "/image/images.jpg" width = "100 px" height = 
+            "100 px" usemap = "#mapping">
+            <map name = "mapping" >
+                <area shape = "poly" coords = "49, 47, 45, 67, 69, 70" href="
+                https://www.youtube.com/watch?v=52KWQyEker0" />
+                 <!-- coordinates take (w1,h1),(w2,h2),(w3,h3) -->
+            </map>
+        <!-- </a> -->
+        <hr>
+        <center>
+            <h4>
+                <abbr title = "Bubba_Gump shrimp">
+                    
+                    <b>With area(rect)</b>
+                </abbr>
+            </h4>
+        </center>
+        <map name = "rect">
+            <img src = "image/Bubba_Gump.jpeg" width = "100px"
+             height = "100 px" usemap = "#rect">
+            <area shape = "rect" coords = "8, 10, 92, 91" href = 
+             "https://www.youtube.com/watch?v=nFvASiMTDz0"  target="_blank"/>
+             <!-- coordiantes always take width(x) -->
+        </map>
+        <hr>
+        <center>
+            <h4>
+                <abbr title = "Hope is a good thing">
+                    With area(circle)
+                </abbr>
+            </h4>
+        </center>
+        <map name = "circle">
+            <img src = "./image/circle.jpeg" width = "100px"
+             hight = "100px" usemap = "#circle" style = "border: 3px solid">
+            <area shape = "circle" coords = "54, 54, 33" href = 
+             "https://www.youtube.com/watch?v=zRBl0GPBm4o" target = "_blank">
+        </map>
+    </body>
+</html>
