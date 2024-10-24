@@ -1,0 +1,21 @@
+* enctype="multipart/form-data". multipart/form-data is necessary for sending files from 
+  the client to the server. It allows mixing of different data-types(text,json,form-data,binary lerge file)
+  in a single request. it commonly used in <input type="file" enctype="multipart/form-data">
+
+<form action="http://127.0.0.1:3000/" method="post" enctype="multipart/form-data">
+    <input type="text" name="firstname">
+    <input type="file" name="image">
+    <input type="file" name="pdf" multiple>
+
+</form>
+
+* enctype="application/x-www-form-urlencode" used for simple text   
+  data(input fields,checkbox etc) , not for lerge file. it pairs are 
+  encode in URL format
+
+<form action="http://127.0.0.1:3000/" method="post" enctype="application/x-www-form-urlencode">
+    <input type="text" name="firstname">
+    <input type="file" name="image">
+    <input type="file" name="pdf" multiple>
+
+</form>
